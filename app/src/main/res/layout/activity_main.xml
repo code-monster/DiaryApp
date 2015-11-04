@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="all records"
-        android:id="@+id/btnAllRecords"
+        android:id="@+id/btnMainMenu"
         android:layout_below="@+id/btnAddRecord"
         android:layout_alignLeft="@+id/btnAddRecord"
         android:layout_alignStart="@+id/btnAddRecord"
@@ -31,6 +31,6 @@
         android:text="Calendar"
         android:id="@+id/btnCalendar"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/btnAllRecords"
-        android:layout_alignStart="@+id/btnAllRecords" />
+        android:layout_alignLeft="@+id/btnMainMenu"
+        android:layout_alignStart="@+id/btnMainMenu" />
 </RelativeLayout>
